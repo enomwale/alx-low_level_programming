@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints caps and lower case
- * Return: Always 0
+ * main - Prints the Capslock
+ * Return: Always (Success)
  */
+
 int main(void)
+
 {
 char c;
 
-c = 'a';
-while (c <= 'z')
-}
+for (c = 'a'; c <= 'z'; c++)
 putchar(c);
-c++;
-}
 putchar('\n');
 return (0);
 }
+
