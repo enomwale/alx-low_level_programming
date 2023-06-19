@@ -7,18 +7,22 @@
 
 int main(void)
 {
-int i;
+char c;
 
-for (i = 0; i < 26; i++)
+char d;
+
+c = 'a';
+d = 'A';
+while (c <= 'z')
 {
-putchar('a' + i);
+putchar(c);
+c++;
 }
-
-for (i = 0; i < 26; i++)
+while (d <= 'Z')
 {
-iiiiiiputchar('A' + i);
+putchar (d);
+d++;
 }
-
 putchar('\n');
 return (0);
 }
