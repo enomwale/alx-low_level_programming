@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -7,6 +6,6 @@
  */
 int main(void)
 {
-fput("and that place of art is useful\" - Dora Korpar, 2015-10-1\n", stdout);
+write(2, "and that place of art is useful\" - Dora Korpar, 2015-10-1\n", 59);
 return (1);
 }
