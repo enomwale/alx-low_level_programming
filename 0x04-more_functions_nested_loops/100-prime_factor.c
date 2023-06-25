@@ -21,7 +21,7 @@ most = 2;
 l /= 2;
 }
 
-for (m = 3; m <= sqrt(n); m = m + 2)
+for (m = 3; m <= sqrt(l); m = m + 2)
 {
 while (l % m == 0)
 {
