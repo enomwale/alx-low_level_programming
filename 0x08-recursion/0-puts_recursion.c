@@ -1,13 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * _puts_recursion - function like puts()
+ * @s: input
+ * _putchar: (*s)
+ * Return: Always 0 (success)
+ */
 
-unsigned int factorial(unsigned int n)
+void _puts_recursion(char *s)
 {
-if (n <= 1)
-return (1);
-return n * factorial(n - 1);
+if (*s)
+{
+_putchar(*s);
+_puts_recursion(s + 1);
 }
-int main(void)
-{
-printf("%i\n", factorial (4));
-return 0;
+else
+_putchar('\n');
 }
